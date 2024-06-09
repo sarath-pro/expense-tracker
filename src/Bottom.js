@@ -1,8 +1,14 @@
 import React from 'react'
+import RecentTransactions from './RecentTransactions'
+import TopExpenses from './TopExpenses'
+import "./Bottom.css"
 
-function Bottom() {
+function Bottom({showEditExpenseForm}) {
   return (
-    <div>Bottom</div>
+    <div className='bottom-container'>
+      <RecentTransactions showEditExpenseForm={showEditExpenseForm}/>
+      <TopExpenses />
+    </div>
   )
 }
 

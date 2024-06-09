@@ -1,0 +1,23 @@
+
+.chart-header {
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 32.17px;
+    text-align: left;
+    margin: 0 0 10px 0;
+}
+
+.chart-card {
+    background: white;
+    width: 32vw;
+    height: 339px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 720px) {
+    .chart-card {
+        width: 100%;
+    }
+}

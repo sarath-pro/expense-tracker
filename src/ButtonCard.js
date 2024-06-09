@@ -1,11 +1,13 @@
 import React from 'react'
 import "./ButtonCard.css"
 
-function ButtonCard({type, text, amount, buttonTxt}) {
+function ButtonCard({type, text, amount, buttonTxt, eventHandler}) {
   return (
     <div className='button-card'>
-        <div className='text'>{text}: &#8377;<span className={type +" amount"}>{amount}</span></div>
-        <button className={type+" btn-text"}>{buttonTxt}</button>
+        <div className='text'>{text}: <span className={type +" amount"}>&#8377;{amount}</span></div>
+        <button className={type+" btn-text"} onClick={()=>{
+          eventHandler(type)
+        }}>{buttonTxt}</button>
     </div>
   )
 }

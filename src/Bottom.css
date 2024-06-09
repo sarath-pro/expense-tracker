@@ -1,0 +1,16 @@
+.bottom-container {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+    margin: 10px 0 20px 0;
+}
+
+@media screen and (max-width: 720px) {
+    .bottom-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: stretch;
+        margin: 10px 0 20px 0;
+    }
+}

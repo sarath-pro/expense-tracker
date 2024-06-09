@@ -1,0 +1,62 @@
+#balance-form {
+    position: fixed;
+    display: flex;
+    background: #FFFFFFC4;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    background: #EFEFEFD9;
+    border-radius: 15px;
+    /* position: absolute;
+    top: 25%;
+    left: 25%; */
+    padding: 8px;
+}
+
+.form-title {
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34.47px;
+    align-self: self-start;
+    color: black;
+    margin: 8px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.row input {
+    padding: 8px;
+    border-radius: 15px;
+    margin: 8px;
+    border: none;
+    box-shadow: 0px 4px #00000040;
+    height: 35px;
+}
+
+.row button {
+    padding: 8px 24px;
+    border-radius: 15px;
+    margin: 8px;
+    border: none;
+    box-shadow: 0px 4px #00000040;
+    height: 51px;
+}
+
+.row-start {
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
